@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A61C88527E87BFA00A33574 /* DAZNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C88427E87BFA00A33574 /* DAZNApp.swift */; };
+		5A61C88727E87BFA00A33574 /* MyTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C88627E87BFA00A33574 /* MyTeamView.swift */; };
+		5A61C88927E87BFC00A33574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A61C88827E87BFC00A33574 /* Assets.xcassets */; };
+		5A61C88C27E87BFC00A33574 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A61C88B27E87BFC00A33574 /* Preview Assets.xcassets */; };
+		5A61C89527E89EF700A33574 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C89427E89EF700A33574 /* Background.swift */; };
+		5A61C89727E9BD4D00A33574 /* CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C89627E9BD4D00A33574 /* CountDown.swift */; };
+		5A61C89B27E9E50700A33574 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C89A27E9E50700A33574 /* HomeView.swift */; };
+		5A61C89D27E9E55000A33574 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C89C27E9E55000A33574 /* ProfileView.swift */; };
+		5A61C8A027EB14C200A33574 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C89F27EB14C200A33574 /* Navigation.swift */; };
+		5A61C8A227EB253900A33574 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C8A127EB253900A33574 /* WebView.swift */; };
+		5A61C8F927EB3BB000A33574 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A61C8F827EB3BB000A33574 /* WidgetKit.framework */; };
+		5A61C8FB27EB3BB000A33574 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A61C8FA27EB3BB000A33574 /* SwiftUI.framework */; };
+		5A61C8FE27EB3BB000A33574 /* DAZNWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C8FD27EB3BB000A33574 /* DAZNWidget.swift */; };
+		5A61C90027EB3BB300A33574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A61C8FF27EB3BB300A33574 /* Assets.xcassets */; };
+		5A61C90427EB3BB300A33574 /* DAZNWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5A61C8F627EB3BB000A33574 /* DAZNWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5A61C90A27EB3BD200A33574 /* MyTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C88627E87BFA00A33574 /* MyTeamView.swift */; };
+		5A61C90B27EB3C5A00A33574 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C89427E89EF700A33574 /* Background.swift */; };
+		5A61C90E27EB3D7500A33574 /* CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C89627E9BD4D00A33574 /* CountDown.swift */; };
+		5A61C91027EB3E3F00A33574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A61C88827E87BFC00A33574 /* Assets.xcassets */; };
+		5A6EE83727EC761F00BE2578 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A61C8A127EB253900A33574 /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A61C90227EB3BB300A33574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A61C87927E87BFA00A33574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A61C8F527EB3BB000A33574;
+			remoteInfo = DAZNWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5A61C90527EB3BB300A33574 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5A61C90427EB3BB300A33574 /* DAZNWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A61C88127E87BFA00A33574 /* DAZN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAZN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A61C88427E87BFA00A33574 /* DAZNApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAZNApp.swift; sourceTree = "<group>"; };
+		5A61C88627E87BFA00A33574 /* MyTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamView.swift; sourceTree = "<group>"; };
+		5A61C88827E87BFC00A33574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A61C88B27E87BFC00A33574 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5A61C89427E89EF700A33574 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		5A61C89627E9BD4D00A33574 /* CountDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDown.swift; sourceTree = "<group>"; };
+		5A61C89A27E9E50700A33574 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5A61C89C27E9E55000A33574 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5A61C89E27E9F0C400A33574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5A61C89F27EB14C200A33574 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		5A61C8A127EB253900A33574 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		5A61C8F627EB3BB000A33574 /* DAZNWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DAZNWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A61C8F827EB3BB000A33574 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5A61C8FA27EB3BB000A33574 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5A61C8FD27EB3BB000A33574 /* DAZNWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAZNWidget.swift; sourceTree = "<group>"; };
+		5A61C8FF27EB3BB300A33574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A61C90127EB3BB300A33574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A61C87E27E87BFA00A33574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A61C8F327EB3BB000A33574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A61C8FB27EB3BB000A33574 /* SwiftUI.framework in Frameworks */,
+				5A61C8F927EB3BB000A33574 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A61C87827E87BFA00A33574 = {
+			isa = PBXGroup;
+			children = (
+				5A61C8A127EB253900A33574 /* WebView.swift */,
+				5A61C89F27EB14C200A33574 /* Navigation.swift */,
+				5A61C88327E87BFA00A33574 /* DAZN-Widget */,
+				5A61C8FC27EB3BB000A33574 /* DAZNWidget */,
+				5A61C8F727EB3BB000A33574 /* Frameworks */,
+				5A61C88227E87BFA00A33574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A61C88227E87BFA00A33574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A61C88127E87BFA00A33574 /* DAZN.app */,
+				5A61C8F627EB3BB000A33574 /* DAZNWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A61C88327E87BFA00A33574 /* DAZN-Widget */ = {
+			isa = PBXGroup;
+			children = (
+				5A61C89E27E9F0C400A33574 /* Info.plist */,
+				5A61C88427E87BFA00A33574 /* DAZNApp.swift */,
+				5A61C89A27E9E50700A33574 /* HomeView.swift */,
+				5A61C88627E87BFA00A33574 /* MyTeamView.swift */,
+				5A61C89C27E9E55000A33574 /* ProfileView.swift */,
+				5A61C89627E9BD4D00A33574 /* CountDown.swift */,
+				5A61C89427E89EF700A33574 /* Background.swift */,
+				5A61C88827E87BFC00A33574 /* Assets.xcassets */,
+				5A61C88A27E87BFC00A33574 /* Preview Content */,
+			);
+			path = "DAZN-Widget";
+			sourceTree = "<group>";
+		};
+		5A61C88A27E87BFC00A33574 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5A61C88B27E87BFC00A33574 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5A61C8F727EB3BB000A33574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A61C8F827EB3BB000A33574 /* WidgetKit.framework */,
+				5A61C8FA27EB3BB000A33574 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A61C8FC27EB3BB000A33574 /* DAZNWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5A61C8FD27EB3BB000A33574 /* DAZNWidget.swift */,
+				5A61C8FF27EB3BB300A33574 /* Assets.xcassets */,
+				5A61C90127EB3BB300A33574 /* Info.plist */,
+			);
+			path = DAZNWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A61C88027E87BFA00A33574 /* DAZN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A61C88F27E87BFC00A33574 /* Build configuration list for PBXNativeTarget "DAZN" */;
+			buildPhases = (
+				5A61C87D27E87BFA00A33574 /* Sources */,
+				5A61C87E27E87BFA00A33574 /* Frameworks */,
+				5A61C87F27E87BFA00A33574 /* Resources */,
+				5A61C90527EB3BB300A33574 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A61C90327EB3BB300A33574 /* PBXTargetDependency */,
+			);
+			name = DAZN;
+			productName = "DAZN-Widget";
+			productReference = 5A61C88127E87BFA00A33574 /* DAZN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A61C8F527EB3BB000A33574 /* DAZNWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A61C90827EB3BB300A33574 /* Build configuration list for PBXNativeTarget "DAZNWidgetExtension" */;
+			buildPhases = (
+				5A61C8F227EB3BB000A33574 /* Sources */,
+				5A61C8F327EB3BB000A33574 /* Frameworks */,
+				5A61C8F427EB3BB000A33574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAZNWidgetExtension;
+			productName = DAZNWidgetExtension;
+			productReference = 5A61C8F627EB3BB000A33574 /* DAZNWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A61C87927E87BFA00A33574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5A61C88027E87BFA00A33574 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					5A61C8F527EB3BB000A33574 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 5A61C87C27E87BFA00A33574 /* Build configuration list for PBXProject "DAZN" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A61C87827E87BFA00A33574;
+			productRefGroup = 5A61C88227E87BFA00A33574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A61C88027E87BFA00A33574 /* DAZN */,
+				5A61C8F527EB3BB000A33574 /* DAZNWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A61C87F27E87BFA00A33574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A61C88C27E87BFC00A33574 /* Preview Assets.xcassets in Resources */,
+				5A61C88927E87BFC00A33574 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A61C8F427EB3BB000A33574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A61C91027EB3E3F00A33574 /* Assets.xcassets in Resources */,
+				5A61C90027EB3BB300A33574 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A61C87D27E87BFA00A33574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A61C89D27E9E55000A33574 /* ProfileView.swift in Sources */,
+				5A61C8A227EB253900A33574 /* WebView.swift in Sources */,
+				5A61C88727E87BFA00A33574 /* MyTeamView.swift in Sources */,
+				5A61C8A027EB14C200A33574 /* Navigation.swift in Sources */,
+				5A61C88527E87BFA00A33574 /* DAZNApp.swift in Sources */,
+				5A61C89B27E9E50700A33574 /* HomeView.swift in Sources */,
+				5A61C89527E89EF700A33574 /* Background.swift in Sources */,
+				5A61C89727E9BD4D00A33574 /* CountDown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A61C8F227EB3BB000A33574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A61C8FE27EB3BB000A33574 /* DAZNWidget.swift in Sources */,
+				5A6EE83727EC761F00BE2578 /* WebView.swift in Sources */,
+				5A61C90A27EB3BD200A33574 /* MyTeamView.swift in Sources */,
+				5A61C90B27EB3C5A00A33574 /* Background.swift in Sources */,
+				5A61C90E27EB3D7500A33574 /* CountDown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A61C90327EB3BB300A33574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A61C8F527EB3BB000A33574 /* DAZNWidgetExtension */;
+			targetProxy = 5A61C90227EB3BB300A33574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A61C88D27E87BFC00A33574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A61C88E27E87BFC00A33574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A61C89027E87BFC00A33574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DAZN-Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = SD5XL5AQ2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DAZN-Widget/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariano.DAZN-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5A61C89127E87BFC00A33574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DAZN-Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = SD5XL5AQ2L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DAZN-Widget/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariano.DAZN-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5A61C90627EB3BB300A33574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SD5XL5AQ2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAZNWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DAZNWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariano.DAZN-Widget.DAZNWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A61C90727EB3BB300A33574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SD5XL5AQ2L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DAZNWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DAZNWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Mariano.DAZN-Widget.DAZNWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A61C87C27E87BFA00A33574 /* Build configuration list for PBXProject "DAZN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A61C88D27E87BFC00A33574 /* Debug */,
+				5A61C88E27E87BFC00A33574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A61C88F27E87BFC00A33574 /* Build configuration list for PBXNativeTarget "DAZN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A61C89027E87BFC00A33574 /* Debug */,
+				5A61C89127E87BFC00A33574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A61C90827EB3BB300A33574 /* Build configuration list for PBXNativeTarget "DAZNWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A61C90627EB3BB300A33574 /* Debug */,
+				5A61C90727EB3BB300A33574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A61C87927E87BFA00A33574 /* Project object */;
+}
